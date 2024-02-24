@@ -17,4 +17,11 @@ img{
 header, footer{
     text-align: center;
     margin: 30px;
+    font-size:30px;
+}
+#clock {
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    margin-top:10px;
+    color:black;
 }
