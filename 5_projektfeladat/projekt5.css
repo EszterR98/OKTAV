@@ -1,0 +1,16 @@
+
+#clock {
+    text-align: center;
+    position: relative;
+    top: 50%;
+    font-family: 'Ranchers', cursive;
+    font-size:80px;
+    margin-top:140px;
+}
+button{
+    margin-right: 20px;
+    border-radius: 20%;
+    background-color:bisque;
+    border: transparent;
+    padding: 10px;
+}
