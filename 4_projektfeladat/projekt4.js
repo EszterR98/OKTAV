@@ -12,13 +12,15 @@ var aru ={
 var maradekKeszlet = aru.raktaron;
 var rendeltMennyiseg = aru.darab;
 
-rendeltMennyiseg = prompt(" Adja meg, hány darabot kér: ");
+rendeltMennyiseg = prompt(" Adja meg, hány darabot szeretne rendelni: ");
 
 function darab(){
     if(maradekKeszlet - rendeltMennyiseg >= 0){
-        alert("Ön sikeresen megrendelt " + rendeltMennyiseg + " mennyiséget")
+        alert("Ön sikeresen megrendelt " + rendeltMennyiseg + " db árut.");
+        document.getElementById('mennyiseg').innerHTML = rendeltMennyiseg;
     }else{
         alert("Nincs raktáron ennyi a termékből.")
     }
 }
 darab();
+
