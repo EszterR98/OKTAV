@@ -6,6 +6,8 @@
     font-family: 'Ranchers', cursive;
     font-size:80px;
     margin-top:140px;
+    color:antiquewhite;
+    text-shadow: 10px 10px black;
 }
 button{
     margin-right: 20px;
