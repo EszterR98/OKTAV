@@ -23,3 +23,20 @@ function oramegjelenito(){
   }
   
   oramegjelenito();
+
+  $(document).ready(function(){
+    $("p").hide();
+    $("button").hide();
+    $("#fotozas-tortenete").hide();
+    $("#kep").click(function(){
+        $("p").show();
+        $("button").show();
+        $("#kep").hide();
+      });
+  });
+
+  $("button").click(function(){
+    $("#fotozas-tortenete").show();
+    $("p").hide();
+    $("button").hide();
+  });
